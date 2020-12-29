@@ -1,0 +1,15 @@
+{
+  "name": "cooldownbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "antifuck.js",
+  "scripts": {
+    "run": "bash start.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
