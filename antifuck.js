@@ -1,5 +1,5 @@
 
-const regex = /[ꬵﬀꞙꞘꝼꜰ₣ḟᶂᶠբӻʄƒ]+[ṳṵṷṹṻụủứừửữựὐὑὒὓὔὕὖὗὺύῠῡῢΰᶣᶸᶶᶷᶹᵘᵤᵾᵿᵁᴜևսևկմնџцμΰύϋυʋʉʊȕȗɥǔǖǘǚǜưƲùúûüũūŭůűųuvѵѷν]+[ꞔꞓḉҫҁсСϹϾʗƈꞰꝅⱪꝁꝃ₭ḱḳḵᶄᵏᴷᴋқҝҟҡкЌϏʞκǩ]+/i;
+const regex = /[ꬵﬀꞙꞘꝼꜰfḟᶂᶠբӻʄƒ]+[ṳṵṷṹṻụủứừửữựὐὑὒὓὔὕὖὗὺύῠῡῢΰᶣᶸᶶᶷᶹᵘᵤᵾᵿᵁᴜևսևկմնџцμΰύϋυʋʉʊȕȗɥǔǖǘǚǜưƲùúûüũūŭůűųuvѵѷν]+[ꞔꞓḉҫҁсСckϹϾʗƈꞰꝅⱪꝁꝃ₭ḱḳḵᶄᵏᴷᴋқҝҟҡкЌϏʞκǩ]+/i;
 const fmessage = `Hello.
 
 I noticed you dropped $FUCKS f-bombs in this comment. This might be necessary, but using nicer language makes the whole world a better place.
@@ -7,10 +7,10 @@ Maybe you need to blow off some steam - in which case, go get a drink of water a
 `;
 
 
-const fucktector = (sentance) => {
+const fucktector = (sentence) => {
 	let count = 0;
-	while(regex.exec(sentance)) {
-		sentance = sentance.replace(regex, '');
+	while(regex.exec(sentence)) {
+		sentence = sentence.replace(regex, '');
 		++count;
 	}
 	return count;
