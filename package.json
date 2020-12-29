@@ -1,14 +1,14 @@
 {
   "name": "cooldownbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "fuck",
   "main": "antifuck.js",
   "scripts": {
     "run": "bash start.sh"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "MyPasswordIsWeak",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^12.5.1"
   }
